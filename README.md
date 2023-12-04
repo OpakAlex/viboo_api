@@ -126,6 +126,7 @@ DATABASES = {
     }
 }
 ```
+
 # CI/CD
 
 This project follows a Continuous Integration (CI) workflow to ensure the reliability of the codebase.
