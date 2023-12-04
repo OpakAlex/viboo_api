@@ -48,7 +48,8 @@ The project is organized into a Django app named "temperature" within the "api" 
 ## Install
 * pip install -r requirements.txt
 * python manage.py migrate
-* python manage.py runserver
+* TEMPERATURE_APP_TOKEN="default_token_temperature_app" python manage.py runserver
+* `./data.sh` to populate the database with sample data and see response examples.
 
 ## Configuration
 1 .Set up your Django settings in api/api/settings.py.
