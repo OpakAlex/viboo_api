@@ -125,8 +125,7 @@ DATABASES = {
         'PORT': os.environ.get('DB_PORT', '5432'),
     }
 }
-
-
+```
 # CI/CD
 
 This project follows a Continuous Integration (CI) workflow to ensure the reliability of the codebase.
